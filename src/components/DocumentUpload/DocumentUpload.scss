@@ -1,0 +1,60 @@
+.file-upload{
+    border: 2px dashed var(--color-gray-light);
+    border-radius: 8px;
+   
+}
+.upload-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader-overlay{
+    background-color: rgba(255, 0, 0, 0.1);
+    width: 100%;
+    height: 200px;
+    display:grid;
+    position: absolute;
+    height: 100%;
+}
+.up-loader {
+    place-self: center;
+    width: 50px;
+    aspect-ratio: 1;
+    display: grid;
+    -webkit-mask: conic-gradient(from 15deg, #0000, #000);
+    mask:conic-gradient(from 15deg, #0000, #000);
+    animation: l26 1s infinite steps(12);
+}
+
+.up-loader,
+.up-loader:before,
+.up-loader:after {
+    background:
+        radial-gradient(closest-side at 50% 12.5%,
+            #f03355 96%, #0000) 50% 0/20% 80% repeat-y,
+        radial-gradient(closest-side at 12.5% 50%,
+            #f03355 96%, #0000) 0 50%/80% 20% repeat-x;
+}
+
+.up-loader:before,
+.up-loader:after {
+    content: "";
+    grid-area: 1/1;
+    transform: rotate(30deg);
+}
+
+.up-loader:after {
+    transform: rotate(60deg);
+}
+
+@keyframes l26 {
+    100% {
+        transform: rotate(1turn)
+    }
+}

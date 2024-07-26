@@ -1,0 +1,26 @@
+$primaryColor: rgb(50, 61, 165);
+$secondaryColor : rgba(62, 62, 62, 1);
+
+:root {
+    --color-gray-light: #999;
+    --color-gray-dark: #333;
+    --color-white: white;
+    --color-green: #23ad26;
+    --color-red: red;
+    --color-link: #1976d2;
+    --default-padding: 2rem;
+    --color-button-primary: #F01717;
+    --shadow-primary: 0 1px 8px 0 rgba(0, 0, 0, 0.22);
+    --border-radius: 6px;
+    --border: solid 1px var(--primary-border-color);
+    --color-background: #f7f7f7;
+    --color-coral: #3BB3A9;
+
+    --primary-border-color: #cacaca;
+    --primary-background-color: #ffffff;
+    --primary-text-color: $primaryColor;
+    --primary-btn-color: #F01717;
+
+    --primary-gradient-color: #702546;
+    --secondary-gradient-color: #F34F4F;
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.yatra-header{
+  z-index: 1000!important;
+}
+
+body {
+  // font-family: "Lato Regular";
+  font-family: 'Lato', 'sans-serif';
+  background: #eee;
+  color: #333;
+}
+
+
+hr{
+  border: 0;
+  margin: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  &-slow {
+    animation-duration: 2s;
+  }
+}

@@ -1,0 +1,42 @@
+.trip-icon{
+    &.report{
+        background-image: url(/src/assets/images/icons/report.svg);
+    }
+    &.excel{
+        background-image: url(/src/assets/images/icons/excel.svg);
+    }
+    &-cancel{
+        display: inline-table;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        right: 0px;
+        top: 3px;
+        margin: 0px 0px 0px 5px;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        background-image: url(/src/assets/images/icons/img-cancel.png);
+    }
+    &-cancel-fail{
+        display: inline-table;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        right: 0px;
+        top: 3px;
+        margin: 0px 0px 0px 5px;
+        background-position: 0px 0px;
+        background-image: url(/src/assets/images/icons/img-cancel-red.png);
+    }
+    &-info{
+        display: inline-table;
+        width: 15px;
+        height: 15px;
+        position: relative;
+        right: 0px;
+        top: 3px;
+        margin: 0px 0px 0px 5px;
+        background-position: 0px 0px;
+        background-image: url(/src/assets/images/icons/trip-info-ico.png);
+    } 
+}

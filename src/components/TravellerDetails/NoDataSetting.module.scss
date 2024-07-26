@@ -1,0 +1,24 @@
+.noDataSetting {
+    width: 79%; 
+    margin: auto;
+    font-size: 0.75rem;
+    height: calc(100vh - 30rem); 
+    border-bottom: 0;
+    vertical-align: top;
+    background-color: #F5EEE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .noDataSetting h3 {
+    font-size: 1.125rem; 
+    color: #333; 
+    margin: 1.25rem 0; 
+    text-align: center; 
+    padding: 1.25rem; 
+  }
+  
+
+  

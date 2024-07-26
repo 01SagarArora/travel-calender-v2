@@ -1,0 +1,63 @@
+
+
+.tabContent {
+  height: 90%; 
+  max-height: 90%;
+  max-width: 100%;
+  width: 100%;
+  margin: 0.62rem auto;
+  padding: 1.25rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabContent h2 {
+  font-size: 1.125rem;
+  color: #4b4848;
+  font-weight: 600;
+  text-align: center;
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+.MuiTabs-root {
+  border-bottom: 0.0625rem solid #e0e0e0;
+}
+
+.MuiTab-root {
+  text-transform: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.MuiTab-root.Mui-selected {
+  color: #1976d2;
+}
+
+.MuiTabs-indicator {
+  background-color: #1976d2;
+}
+
+.tabPanel {
+  width: 100%;
+  padding: 1.25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.day {
+  position: absolute;
+  bottom: 20%;
+  font-size: 12px;
+  width: max-content;
+  cursor: pointer;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.selected-day {
+  color: #fff;
+}

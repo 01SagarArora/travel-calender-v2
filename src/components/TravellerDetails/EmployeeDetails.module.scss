@@ -1,0 +1,230 @@
+.employeeTravelContent {
+  width: 100%;
+  height: calc(100vh - 6.25rem);
+  overflow-y: auto;
+  overflow-x: hidden; 
+  display: flex;
+  flex-direction: column;
+}
+
+.empTableRow {
+  border-bottom: 0.0625rem solid white; 
+}
+
+.empDetailCol,
+.travelDetailCol {
+  width: 50%;
+}
+
+
+.empTravelMod{
+  background-color: #fff;
+  width: 100%;
+  font-size: 0.75rem;
+  height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  margin-top: 0.5rem;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.empTravelModSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.625rem;
+}
+
+.noDataMod {
+  justify-content: center; 
+  display: flex; 
+}
+
+.empTravelMod h2 {
+  font-size: 1.125rem; 
+  color: #4b4848;
+  font-weight: 600;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.travellerCount {
+  padding-left: 0.625rem;
+  color: #716c6a;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.empTableBlockMod {
+  width: 100%;
+  background-color: white;
+  flex: 1; 
+  padding: 0.625rem;
+  box-sizing: border-box;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ padding-bottom: 1rem;
+}
+
+
+.tripIdLink {
+  font-weight: 600;
+  color: inherit;
+  width:fit-content;
+  text-decoration: none;
+  position: relative;
+  display: inline-block; 
+  transition: color 0.3s ease;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #0073e6; 
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover,
+  &:focus {
+    color: #0073e6; 
+  }
+
+  &:hover:after,
+  &:focus:after {
+    width: 100%; 
+  }
+}
+
+.tripHeader a {
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.tripHeader a:hover,
+.tripHeader a:focus {
+  text-decoration: none;
+}
+
+.tripBlock {
+  border: 0.03125rem solid #e2e2e2; 
+  background-color: #fff;
+  box-shadow: 0rem 0.125rem 0.25rem rgba(0, 0, 0, 0.1); 
+}
+
+
+
+.tripHeader {
+  background-color: #F5EEE6;
+  color: #4b4848;
+  padding: 0.625rem; 
+  font-size: 0.875rem; 
+  display: flex;
+  justify-content: space-between;
+  gap: 0.625rem; 
+}
+
+
+.tripHeaderLeft {
+  flex-direction: column;
+  width: 67%;
+  display: flex;
+  gap: 0.25rem;
+  word-wrap: break-word; 
+  word-break: break-word; 
+  white-space: normal; 
+}
+.arrowIcon {
+ 
+  margin-left: 0.18rem; 
+}
+
+.tripHeaderRight {
+  flex-direction: column;
+  display: flex;
+  gap: 0.25rem; 
+  text-align: left;
+  margin-left: 0.5rem;
+  width: 32%;
+  word-wrap: break-word; 
+  word-break: break-word; 
+  white-space: normal; 
+  p{
+    display: flex;
+  }
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem; 
+  font-weight: 400;
+  color: #4b4848;
+  table-layout: fixed;
+}
+
+.tableHeader {
+  background-color: #EEF5FF;  
+  color: #4b4848;
+  font-weight: bold;
+  text-align: left;
+}
+
+.tableHeader th {
+  padding: 0.625rem; 
+  border: 0.0625rem solid #ccc; 
+}
+
+.tableHeader th:first-child {
+  border-left: 0; 
+}
+
+.tableHeader th:last-child {
+  border-right: 0;
+}
+
+.tableRow td:first-child {
+  border-left: 0; 
+}
+
+.tableRow td:last-child {
+  border-right: 0; 
+}
+
+.tableRow {
+  border-top: 0.0625rem solid #ccc; 
+}
+
+.tableRow td {
+  padding: 0.625rem; 
+  border: 0.0625rem solid #ccc; 
+  text-align: left;
+  word-wrap: break-word; 
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+.tableRow:hover {
+  background-color: #f1f1f1; 
+}
+
+.empTableLists {
+  margin: 0.3125rem 0; 
+}
+
+.empTableLists span {
+  display: inline-block;
+}

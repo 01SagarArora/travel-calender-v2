@@ -1,0 +1,22 @@
+replicaCount: 1
+name: travel-calendar-v2
+image:
+  repository: "qaregistry.yatra.com/travel-calendar-v2"
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion .
+  tag: "061c682"
+args: PROD
+env:
+  Product: travel-calendar-v2  
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
+
+resources:
+   limits:
+     cpu: 500m
+     memory: 1024Mi
+   requests:
+     cpu: 100m
+     memory: 512Mi

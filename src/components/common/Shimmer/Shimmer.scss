@@ -1,0 +1,25 @@
+.shimmer-container {
+    background: white;
+    border-radius: 8px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 14px 7px 15px 7px;
+}
+
+.sticky-div {
+    background: #efefef;
+    position: sticky;
+    top: 11rem;
+    z-index: 1200;
+}
+
+.shimmer-image-container {
+    border-radius: 12px 0px 0px 12px;
+}
+
+// <Stack width={"30%"} className="shimmer-image-container">
+// </Stack>   
+// <Stack width={"60%"} >
+// </Stack> 
+// <Stack width={"10%"} className="shimmer-image-container">
+// </Stack>  
